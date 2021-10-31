@@ -1,2 +1,5 @@
-def greetings():
-    print("Hello world")
+def greetings(name: str):
+    print(f"Hello, {name}")
+
+
+greetings("Kosta")
